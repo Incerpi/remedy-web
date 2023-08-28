@@ -10,9 +10,9 @@ export default function Home() {
       <div id="data">
           <div id="data-row" className="flex justify-between p-2 my-1 rounded cursor-pointer hover:bg-slate-800">
             <div className="flex gap-1">
-              <span>itau</span>
+              <span>Medicamento</span>
             </div>
-            <span>R$ 100.00</span>
+            <span>Omeprazol</span>
           </div>
         </div>
 
