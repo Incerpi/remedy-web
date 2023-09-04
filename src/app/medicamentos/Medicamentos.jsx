@@ -7,8 +7,8 @@ export default function Medicamentos({ medicamentos }) {
             <div className="flex gap-1">
                 <span>{nome}</span>
             </div>
-            <div>
-                <span>Omeprazol</span>
+            <div className='flex items-center'>
+                <span>{nome.toFixed(2)}</span>
                 <DropMenu />
             </div>
         </div>
